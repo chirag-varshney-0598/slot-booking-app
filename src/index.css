@@ -17,6 +17,12 @@ code {
   background-color: #fff;
 }
 
+@media (max-width: 678px) {
+  .MuiDateCalendar-root {
+    max-width: 270px;
+  }
+}
+
 .MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
   background-color: #378760 !important;
 }
